@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-14T14:43:10 GMT+07:00" name="AutomationSuite" finished-at="2026-03-14T14:43:32 GMT+07:00" duration-ms="22059">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.testLoginFail()[pri:0, instance:com.example.baitap2.LoginTest@53fd0d10]" name="testLoginFail" class="com.example.baitap2.LoginTest"/>
+        <method signature="LoginTest.testLoginSuccess()[pri:0, instance:com.example.baitap2.LoginTest@53fd0d10]" name="testLoginSuccess" class="com.example.baitap2.LoginTest"/>
+        <method signature="CheckoutTest.testCancelCheckout()[pri:0, instance:com.example.baitap2.CheckoutTest@42721fe]" name="testCancelCheckout" class="com.example.baitap2.CheckoutTest"/>
+        <method signature="CheckoutTest.testCheckout()[pri:0, instance:com.example.baitap2.CheckoutTest@42721fe]" name="testCheckout" class="com.example.baitap2.CheckoutTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.testLoginSuccess()[pri:0, instance:com.example.baitap2.LoginTest@53fd0d10]" name="testLoginSuccess" class="com.example.baitap2.LoginTest"/>
+        <method signature="CheckoutTest.testCheckout()[pri:0, instance:com.example.baitap2.CheckoutTest@42721fe]" name="testCheckout" class="com.example.baitap2.CheckoutTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-14T14:43:10 GMT+07:00" name="LoginTest" finished-at="2026-03-14T14:43:26 GMT+07:00" duration-ms="15196">
+      <class name="com.example.baitap2.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.baitap2.LoginTest@53fd0d10]" started-at="2026-03-14T14:43:10 GMT+07:00" name="setup" finished-at="2026-03-14T14:43:13 GMT+07:00" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginFail()[pri:0, instance:com.example.baitap2.LoginTest@53fd0d10]" started-at="2026-03-14T14:43:13 GMT+07:00" name="testLoginFail" finished-at="2026-03-14T14:43:18 GMT+07:00" duration-ms="5012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.baitap2.LoginTest@53fd0d10]" started-at="2026-03-14T14:43:18 GMT+07:00" name="tearDown" finished-at="2026-03-14T14:43:19 GMT+07:00" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.baitap2.LoginTest@53fd0d10]" started-at="2026-03-14T14:43:19 GMT+07:00" name="setup" finished-at="2026-03-14T14:43:20 GMT+07:00" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:com.example.baitap2.LoginTest@53fd0d10]" started-at="2026-03-14T14:43:20 GMT+07:00" name="testLoginSuccess" finished-at="2026-03-14T14:43:25 GMT+07:00" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.baitap2.LoginTest@53fd0d10]" started-at="2026-03-14T14:43:25 GMT+07:00" name="tearDown" finished-at="2026-03-14T14:43:26 GMT+07:00" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.baitap2.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2026-03-14T14:43:26 GMT+07:00" name="CartTest" finished-at="2026-03-14T14:43:32 GMT+07:00" duration-ms="6826">
+      <class name="com.example.baitap2.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.baitap2.CartTest@4372b9b6]" started-at="2026-03-14T14:43:26 GMT+07:00" name="setup" finished-at="2026-03-14T14:43:27 GMT+07:00" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.example.baitap2.CartTest@4372b9b6]" started-at="2026-03-14T14:43:27 GMT+07:00" name="testAddToCart" finished-at="2026-03-14T14:43:32 GMT+07:00" duration-ms="5009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.baitap2.CartTest@4372b9b6]" started-at="2026-03-14T14:43:32 GMT+07:00" name="tearDown" finished-at="2026-03-14T14:43:32 GMT+07:00" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.baitap2.CartTest -->
+    </test> <!-- CartTest -->
+    <test started-at="2026-03-14T14:43:32 GMT+07:00" name="CheckoutTest" finished-at="2026-03-14T14:43:32 GMT+07:00" duration-ms="2">
+      <class name="com.example.baitap2.CheckoutTest">
+        <test-method signature="testCancelCheckout()[pri:0, instance:com.example.baitap2.CheckoutTest@42721fe]" started-at="2026-03-14T14:43:32 GMT+07:00" name="testCancelCheckout" finished-at="2026-03-14T14:43:32 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelCheckout -->
+        <test-method signature="testCheckout()[pri:0, instance:com.example.baitap2.CheckoutTest@42721fe]" started-at="2026-03-14T14:43:32 GMT+07:00" name="testCheckout" finished-at="2026-03-14T14:43:32 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout -->
+      </class> <!-- com.example.baitap2.CheckoutTest -->
+    </test> <!-- CheckoutTest -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>

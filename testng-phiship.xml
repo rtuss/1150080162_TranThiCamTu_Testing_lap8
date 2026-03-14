@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="PhiShipSuite">
+    
+    <test name="PhiShip Basis Path Test">
+        <classes>
+            <class name="com.example.baitap4.PhiShipBasisPathTest"/>
+        </classes>
+    </test>
+
+</suite>

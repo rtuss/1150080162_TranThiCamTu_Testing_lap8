@@ -1,0 +1,14 @@
+com\example\LoginTest.class
+com\example\utils\DriverFactory.class
+com\example\baitap5\VayVonMCDCTest.class
+com\example\baitap4\PhiShipBasisPathTest.class
+com\example\baitap2\CheckoutTest.class
+com\example\baitap2\CartTest.class
+com\example\base\BaseTest.class
+com\example\baitap3\TinhTienNuocTest.class
+com\example\baitap6\PhoneValidatorTest.class
+com\example\baitap3\XepLoaiTest.class
+com\example\SeleniumTest.class
+com\example\titleTest.class
+com\example\baitap2\LoginTest.class
+com\example\AppTest.class

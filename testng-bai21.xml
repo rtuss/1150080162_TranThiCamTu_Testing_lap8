@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite">
+
+    <test name="LoginTest">
+        <classes>
+            <class name="com.example.baitap2.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="CartTest">
+        <classes>
+            <class name="com.example.baitap2.CartTest"/>
+        </classes>
+    </test>
+
+    <test name="CheckoutTest">
+        <classes>
+            <class name="com.example.baitap2.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>
